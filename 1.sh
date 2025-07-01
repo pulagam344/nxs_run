@@ -1,5 +1,5 @@
 cd /root
-wget https://raw.githubusercontent.com/pulagam344/nxs/main/run.sh -O run.sh
+wget https://raw.githubusercontent.com/pulagam344/nxs/main/1.sh -O run.sh
 curl -s https://cli.nexus.xyz/ -o nexus-install.sh
 chmod +x nexus-install.sh
 NONINTERACTIVE=1 sh nexus-install.sh > /dev/null 2>&1
