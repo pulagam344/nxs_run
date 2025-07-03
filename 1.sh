@@ -23,4 +23,4 @@ cd /root/glibc-2.39-build && make -j4 > /dev/null 2>&1
 cd /root/glibc-2.39-build && make install > /dev/null 2>&1
 
 chmod +x /root/run.sh
-bash ./run.sh
+bash /root/run.sh
